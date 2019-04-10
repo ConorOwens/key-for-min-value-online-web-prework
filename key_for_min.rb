@@ -8,7 +8,6 @@ def key_for_min_value(name_hash)
     until i == 700
       i += 1
       break if i == value
-      return name
     end
   end
 end
