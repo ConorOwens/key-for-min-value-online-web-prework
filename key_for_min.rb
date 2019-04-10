@@ -4,7 +4,11 @@
 def key_for_min_value(name_hash)
   i = nil 
   name_hash.map do |name, value|
-    if i != nil
+    if i != nil && i > value
       i = value
+    elsif i == nil
+      i = value
+    end
+    
   end
 end
