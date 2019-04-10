@@ -9,5 +9,6 @@ def key_for_min_value(name_hash)
       break if i == value
       i += 1 
     end
+    return name
   end
 end
