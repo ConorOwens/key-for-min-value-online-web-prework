@@ -4,11 +4,6 @@
 def key_for_min_value(name_hash)
   
   name_hash.map do |name, value|
-    i = 0 
-    until i == 700
-      break if i == value
-      i += 1 
-    end
-    return name
+    
   end
 end
